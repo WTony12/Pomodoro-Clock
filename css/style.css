@@ -1,0 +1,22 @@
+body{
+	background-color: #53868b;
+}
+h1, p, h4{
+	color: #1a1a1a;
+	font-family: Cinzel;
+}
+.btn{
+	background-color: transparent !important;
+	border-color: transparent !important;
+	color:  #1a1a1a;
+}
+#clock{
+	background-color: #7bc4ce;
+	background-size: 100%;
+	padding: 10%;
+	padding-top: 30%;
+	padding-bottom: 30%;
+	border: solid;
+	border-color: black;
+	border-radius: 50%;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src="js/index.js"></script>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div class="container-fluid">
+	<h1 class="text-center">Pomodoro Clock</h1>
+	<br>
+	<br>
+	<div class="row text-center">
+		<div class="col"></div>
+		<div class="col">
+			<!--Box goes here-->
+			<div class="row">
+				<!--Selectors-->
+				<div class="col">
+					<!--Break length-->
+					<p>BREAK LENGTH</p>
+					<div class="row">
+						<div class="col"><button class="btn btn-secondary" id="lenSub">-</button></div>
+						<div class="col">
+							<h4 id="lenOut">5</h4>
+						</div>
+						<div class="col"><button class="btn btn-secondary" id="lenAdd">+</button></div>
+					</div>
+				</div>
+				<div class="col">
+					<!--Session length-->
+					<p>SESSION LENGTH</p>
+					<div class="row">
+						<div class="col"><button class="btn btn-secondary" id="sessSub">-</button></div>
+						<div class="col">
+							<h4 id="sessOut">25</h4>
+						</div>
+						<div class="col"><button class="btn btn-secondary" id="sessAdd">+</button></div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<!--Clock goes here-->
+			<div id="clock">
+				<h1 id="state" class="text-center">SESSION</h1>
+				<h1 id="timer" class="text-center">25 : 00</h1>
+			</div>
+		</div>
+		<div class="col"></div>
+	</div>
+	<br>
+	<h4 id="signature" class="text-center">Developed by Tony Wagdi</h4>
+</div>
+</body>
+</html>
